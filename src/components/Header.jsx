@@ -42,8 +42,13 @@ const Header = () => {
               className="w-48"
               style={{ cursor: 'pointer' }}
             />
-          </a>
+          </a>            
         </section>
+        <div className="flex justify-center">
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VX7WDXDPMVYBE" target="_blank" rel="noopener noreferrer">
+        <button className="boton_reserva">Reservar mi plaza</button>
+        </a>
+</div>
       </>
     )
 }

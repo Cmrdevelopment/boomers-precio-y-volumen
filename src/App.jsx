@@ -1,12 +1,16 @@
 import Header from "./components/Header.jsx";
-
+import InfoGeneral from "./components/Infogeneral.jsx";
 
 const App = () => {
   
 
   return (
+    <>
     <Header/>
+    <InfoGeneral/>
+    </>
   );
+
 }
 
 export default App;
