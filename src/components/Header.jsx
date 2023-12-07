@@ -25,12 +25,25 @@ const Header = () => {
             <span className="text-indigo-50">{"\"MADRID\""}</span>
           </p>
         </div>
-        <div className="flex flex-col items-center mt-6 sm:flex-row sm:justify-center">
-          <img className="mb-4 mx-auto w-1/3 sm:w-1/12" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727670/Boomers/Logo_Jordi_Trading_180_x_40_mxefav.png" alt="logo Jordi" />
-          <img className="mb-4 mx-auto w-1/3 sm:w-1/12" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727730/Boomers/Logo_a_modificar-removebg-preview_kjo5ld.png" alt="logo cmrbolsa" />
-          <img className="mb-4 mx-auto w-1/3 sm:w-1/12" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727681/Boomers/Logo_Miguel_10_rulhs7.png" alt="logo Miguel Ramirez" />
-          <img className="mx-auto w-1/3 sm:w-1/12" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727688/Boomers/Logo_el_cafecillo_sin_fondo_5_180_x_48_ebinbb.png" alt="logo David Leyguarda" />
+        <div className="flex justify-around">
+        <div className="flex flex-col items-center m-5">
+          <img className="w-48 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701940868/Boomers/Drive_Jordi_sin_fondo_xxq0hq.png" alt="Foto Jordi" />
+          <img className="w-36 h-12 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727670/Boomers/Logo_Jordi_Trading_180_x_40_mxefav.png" alt="logo Jordi" />
+          </div>
+          <div className="flex flex-col items-center m-5">
+          <img className="w-48 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701941020/Boomers/Foto_redonda_cmrbolsa_9_cjqbsp.jpg" alt="foto Cmrbolsa" />
+          <img className="w-36 h-12 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727730/Boomers/Logo_a_modificar-removebg-preview_kjo5ld.png" alt="logo cmrbolsa" />
+          </div>
+          <div className="flex flex-col items-center m-5">
+          <img className="w-48 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701940872/Boomers/Drive_Miguel_sin_fondo_kfi0mm.png" alt="foto Miguel Ramirez"/>
+          <img className="w-36 h-12 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727681/Boomers/Logo_Miguel_10_rulhs7.png" alt="logo Miguel Ramirez" />
+          </div>
+          <div className="flex flex-col items-center m-5">          
+          <img className="w-48 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701940871/Boomers/Drive_David_sin_fondo_r2ignh.png" alt="foto David Leyguarda" />
+          <img className="w-36 h-12 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727688/Boomers/Logo_el_cafecillo_sin_fondo_5_180_x_48_ebinbb.png" alt="logo David Leyguarda" />
+          </div>
         </div>
+        
         <section className="flex flex-col items-center mt-7 sm:flex-row sm:justify-center">
           <h3 className="text-sm font-extrabold text-center mb-2 sm:mr-4 sm:mb-0 sm:text-lg">
             Patrocinado por:
@@ -46,7 +59,7 @@ const Header = () => {
         </section>
         <div className="flex justify-center">
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VX7WDXDPMVYBE" target="_blank" rel="noopener noreferrer">
-        <button className="boton_reserva">Reservar mi plaza</button>
+        <button className="boton_reserva volvemos-animation">Reservar mi plaza</button>
         </a>
 </div>
       </>
