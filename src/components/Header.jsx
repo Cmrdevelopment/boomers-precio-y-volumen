@@ -13,7 +13,7 @@ const Header = () => {
         <>
         <div className="mb-6 bg-cover bg-center bg-no-repeat">
           <h1 className="mt-8 text-5xl font-extrabold text-black text-center sm:text-9xl">
-            VOLVEMOS
+          <span className="volvemos-animation">VOLVEMOS</span>
           </h1>
           <img className="mb-4 mx-auto w-1/3 sm:w-1/12" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701720214/Boomers/Logo_Boomers_centrado_ht0jt8.png" alt="logo Boomers" />
         </div>
@@ -22,7 +22,7 @@ const Header = () => {
             Los <span className="text-yellow-600">cuatro jinetes</span> del apocalipsis
           </h1>
           <p className="text-xl font-extrabold text-center mt-5 sm:text-3xl">
-            <span className="text-indigo-50">{"\"BOOMERS\""}</span>
+            <span className="text-indigo-50">{"\"MADRID\""}</span>
           </p>
         </div>
         <div className="flex flex-col items-center mt-6 sm:flex-row sm:justify-center">

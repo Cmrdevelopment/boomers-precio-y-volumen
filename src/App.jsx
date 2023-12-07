@@ -1,5 +1,6 @@
 import Header from "./components/Header.jsx";
 import InfoGeneral from "./components/Infogeneral.jsx";
+import AccordionInfo from "./components/Accordion.jsx";
 
 const App = () => {
   
@@ -7,7 +8,10 @@ const App = () => {
   return (
     <>
     <Header/>
+    <AccordionInfo/>
     <InfoGeneral/>
+    
+    
     </>
   );
 
