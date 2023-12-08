@@ -19,6 +19,7 @@ const MasInfoTaller = () => {
             <h3>Sábado 17 de 09:00 a 13:00 y de 16:00 a 20:00 horas</h3>
             <h3>Domingo 18 de 09:00 a 13:00 y de 16:00 a 20:00 horas</h3>
             <h3>Lunes 19 de 15:00 a 18:00 horas</h3>
+            <h5>¡Si deseas quedarte en el hotel que nos quedamos nosotros, no dudes en preguntarnos!</h5> <h5> ¡Espero verte pronto y que vivas un TALLER inolvidable en nuestro hotel! 🌟🏨</h5>  
             </seccion>
         </>
     )
