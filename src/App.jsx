@@ -1,8 +1,8 @@
 import Header from "./components/Header.jsx";
 import InfoGeneral from "./components/Infogeneral.jsx";
 import AccordionInfo from "./components/Accordion.jsx";
-import MasInfoTaller from "./components/Footer/MasInfoTaller.jsx";
-import Precio from "./components/Precio.jsx";
+import MasInfoTaller from "./components/MasInfoTaller/MasInfoTaller.jsx";
+import Precio from "./components/Precio/Precio.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
 const App = () => {

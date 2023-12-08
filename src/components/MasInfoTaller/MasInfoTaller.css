@@ -1,0 +1,74 @@
+
+
+
+
+.Landinginfo_info_a-quien-va-dirigido-y-te-gusta{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    line-height: 2;    
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.Landinginfo_info_a-quien-va-dirigido-comprender_y_operar{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    text-align: justify;
+    padding: 25px;
+    line-height: 2;
+}
+
+.Landinginfo_info_a-quien-va-dirigido-comprender_y_operar p{
+    padding: 25px;
+}
+
+.Landinginfo_info_a-quien-va-dirigido-adivinar{
+    width: 43%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    line-height: 2;
+    font-weight: 450;
+}
+
+
+@media screen and (max-width: 730px) {
+    .Landinginfo_info{
+        text-align: center;
+    }
+    .Landinginfo_info_titulo_y_subtitulo{
+        padding: 36px;
+    }
+
+    .Landinginfo_info_titulo_y_subtitulo h2{
+        font-size: 23px;
+    }
+    .Landinginfo_info_titulo_y_subtitulo h3{
+        font-size: 16px;
+    } 
+
+    .Landinginfo_info_fecha_y_lugar{
+        padding: 9px;
+    }
+
+    .Landinginfo_info_a-quien-va-dirigido-comprender_y_operar{    
+        gap: 3px;    
+    }
+
+    .Landinginfo_info_titulo_entender_y_comprender{
+        
+        font-size:19px;
+        padding: 21px;
+
+    }
+
+    .Landinginfo_info_dirigido-para-aquellos{
+        font-size: 12px;
+        padding: 12px;
+    }
+
+} 

@@ -10,10 +10,12 @@ import {
 import 'react-accessible-accordion/dist/fancy-example.css';
 
 const AccordionInfo = () => {
+
+    
     return (
         <div className='flex justify-center m-5'>
         <div className='w-full sm:w-1/2'>
-        <h1 className='flex justify-center mb-7 font-bold'>Te presento el taller de los 4 Boomers de Precio y Volumen</h1>
+        <h1 className='flex justify-center mb-7 font-bold text-center'>Te presento el taller de los 4 Boomers de Precio y Volumen</h1>
         <p className='text-lg text-justify mb-9'><strong>Tres días completos en Madrid</strong> (Sábado, Domingo y Lunes), <strong>cuatro sesiones entre el sabado y domingo</strong> impartidas por los cuatro boomers donde los alumnos están <strong>cuatro horas en cada taller teórico-practico</strong> y <strong>el lunes todos juntos</strong> viendo la <strong>operativa en real</strong> de todo lo dado el fin de semana.</p>
         <Accordion >
             <AccordionItem >
