@@ -31,7 +31,7 @@ const Header = () => {
           <img className="w-36 h-12 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727670/Boomers/Logo_Jordi_Trading_180_x_40_mxefav.png" alt="logo Jordi" />
           </div>
           <div className="flex flex-col items-center m-5">
-          <img className="w-48 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701941020/Boomers/Foto_redonda_cmrbolsa_9_cjqbsp.jpg" alt="foto Cmrbolsa" />
+          <img className="w-48 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701995706/Boomers/Foto_cmrbolsa_dedo_campo_SIN_FONDO_rvysip.png" alt="foto Cmrbolsa" />
           <img className="w-36 h-12 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727730/Boomers/Logo_a_modificar-removebg-preview_kjo5ld.png" alt="logo cmrbolsa" />
           </div>
           <div className="flex flex-col items-center m-5">
@@ -40,7 +40,7 @@ const Header = () => {
           </div>
           <div className="flex flex-col items-center m-5">          
           <img className="w-48 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701940871/Boomers/Drive_David_sin_fondo_r2ignh.png" alt="foto David Leyguarda" />
-          <img className="w-36 h-12 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727688/Boomers/Logo_el_cafecillo_sin_fondo_5_180_x_48_ebinbb.png" alt="logo David Leyguarda" />
+          <img className="w-36 h-12 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701995794/Boomers/Logo_David_Leyguarda-removebg-preview_vrsbu3.png" alt="logo David Leyguarda" />
           </div>
         </div>
         

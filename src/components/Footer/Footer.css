@@ -1,0 +1,57 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    font-size: 14px;
+    gap: 7px;
+    text-decoration: none;
+}
+
+.footer a{
+    color: black;
+}
+
+.footer a:hover{
+    color: var(--color-azul);
+    font-weight: 500;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.LandingSaberMas_boton_quieres_saber_mas{
+    background-color: var(--color-azul);
+    padding: 16px;
+    margin-top: 36px;
+    transition: linear 0.2s;   
+    cursor: pointer;
+    width: 100%;   
+    line-height: 1.6;
+    font-weight: 450;
+    border: 0;
+}
+
+.LandingSaberMas_boton_quieres_saber_mas:hover{
+    cursor: pointer;
+    background-color: #FACC15;
+}
+
+.LandingSaberMas_texto p{
+    font-size: 16px;
+    
+}
+
+.LandingSaberMas_texto p:hover{
+    transition: linear 0.2s; 
+    font-size: 18px;
+}
+
+.LandingSaberMas_texto span{
+    color: white;
+}
+.LandingSaberMas_texto span:hover{
+    color: black;
+}

@@ -1,6 +1,9 @@
 import Header from "./components/Header.jsx";
 import InfoGeneral from "./components/Infogeneral.jsx";
 import AccordionInfo from "./components/Accordion.jsx";
+import MasInfoTaller from "./components/Footer/MasInfoTaller.jsx";
+import Precio from "./components/Precio.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 const App = () => {
   
@@ -8,8 +11,12 @@ const App = () => {
   return (
     <>
     <Header/>
-    <AccordionInfo/>
     <InfoGeneral/>
+    <AccordionInfo/>
+    <MasInfoTaller/>
+    <Precio/>
+    <Footer/>
+    
     
     
     </>
