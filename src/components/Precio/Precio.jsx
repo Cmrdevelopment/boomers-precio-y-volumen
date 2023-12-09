@@ -44,7 +44,7 @@ const Precio = () => {
             </div>
           </button>
         </div>
-        <div className="flex justify-center items-center text-center mt-5">
+        <div className="flex justify-center items-center text-center m-5">
                 <p>Una vez hagas la reserva recibirás un email con toda la info y un enlace para entrar en el TELEGRAM privado del EVENTO, así estarás informado de todo el evento</p>        
                 </div>
                 <div className="flex flex-col justify-center items-center">
