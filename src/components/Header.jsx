@@ -35,8 +35,8 @@ const Header = () => {
           <img className="w-36 h-12 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727730/Boomers/Logo_a_modificar-removebg-preview_kjo5ld.png" alt="logo cmrbolsa" />
           </div>
           <div className="flex flex-col items-center m-5">
-          <img className="w-48 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1702131714/Foto_Miguel_mano_SIN_FONDO_pvedvp.png" alt="foto Miguel Ramirez"/>
-          <img className="w-36 h-16 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1702132498/Logo_lobo_Miguel_Ramirez_cerca-con_letras_ampliadas_c8tzx9.png" alt="logo Miguel Ramirez" />
+          <img className="w-52 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1702131714/Foto_Miguel_mano_SIN_FONDO_pvedvp.png" alt="foto Miguel Ramirez"/>
+          <img className="w-48 h-16 -my-4 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1702132498/Logo_lobo_Miguel_Ramirez_cerca-con_letras_ampliadas_c8tzx9.png" alt="logo Miguel Ramirez" />
           </div>
           <div className="flex flex-col items-center m-5">          
           <img className="w-48 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701940871/Boomers/Drive_David_sin_fondo_r2ignh.png" alt="foto David Leyguarda" />
