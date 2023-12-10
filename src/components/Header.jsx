@@ -45,7 +45,7 @@ const Header = () => {
           </div>
         </div>
         
-        <section className="flex flex-col items-center mt-7 sm:flex-row sm:justify-center">
+        <section className="flex flex-col items-center sm:flex-row sm:justify-center">
           <h3 className="text-sm font-extrabold text-center mb-2 sm:mr-4 sm:mb-0 sm:text-lg">
             Patrocinado por:
           </h3>
