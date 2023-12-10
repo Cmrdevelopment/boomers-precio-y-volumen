@@ -40,7 +40,7 @@ const AccordionInfo = () => {
                 <AccordionItem >
                 <AccordionItemHeading >
                     <AccordionItemButton className='bg-yellow-400 p-4 hover:bg-gray-200 text-lg font-bold text-slate-950 hover:text-zinc-50 ' >                    
-                    Taller 2# - Conceptos <span className="color_primario">básicos del ITC </span>
+                    Taller 2# - Conceptos <span className="color_primario">básicos del ICT </span>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel >
