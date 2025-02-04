@@ -16,9 +16,6 @@ const App = () => {
     <MasInfoTaller/>
     <Precio/>
     <Footer/>
-    
-    
-    
     </>
   );
 

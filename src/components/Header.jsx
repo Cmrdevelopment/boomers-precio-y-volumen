@@ -1,7 +1,7 @@
 
 const Header = () => {
     
-    const backgroundImageUrl = "https://res.cloudinary.com/dwbxywvdw/image/upload/v1701718883/Boomers/Imagen_4_jinetas_con_fondo_nublado_vjnv41.jpg";
+    const backgroundImageUrl = "https://res.cloudinary.com/dwbxywvdw/image/upload/v1738663245/Boomers/Equipo_A_byn_gtq9fy.png";
   const containerStyle = {
     backgroundImage: `url(${backgroundImageUrl})`,
     backgroundSize: "cover",
@@ -13,13 +13,13 @@ const Header = () => {
         <>
         <div className="mb-6 bg-cover bg-center bg-no-repeat">
           <h1 className="mt-8 text-5xl font-extrabold text-black text-center sm:text-9xl">
-          <span className="volvemos-animation">VOLVEMOS</span>
+          <span className="volvemos-animation">MAYO 2025</span>
           </h1>
-          <img className="mb-4 mx-auto w-1/3 sm:w-1/12" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1702135035/Drive_logo_boomers_sin_fondo_aa2nkf.png" alt="logo Boomers" />
+          <img className="mb-4 mx-auto w-1/3 sm:w-1/6" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1738663388/Boomers/Logo_sin_precio_y_volumen_ci0emv.png" alt="logo Boomers" />
         </div>
         <div className="bg-white shadow p-8 md:p-36" style={containerStyle}>
           <h1 className="text-indigo-50 text-3xl font-extrabold text-center sm:text-7xl">
-            Los <span className="text-yellow-600">cuatro jinetes</span> del apocalipsis
+            El <span className="text-yellow-600">Equipo</span> A
           </h1>
           <p className="text-xl font-extrabold text-center mt-5 sm:text-3xl">
             <span className="text-indigo-50">{"\"En MADRID\""}</span>
@@ -36,7 +36,7 @@ const Header = () => {
           </div>
           <div className="flex flex-col items-center m-5">
           <img className="w-52 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1702131714/Foto_Miguel_mano_SIN_FONDO_pvedvp.png" alt="foto Miguel Ramirez"/>
-          {/* <img className="w-48 h-16 -my-4 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1702134619/Lobo_sicodelico_y_mr_trading_vhnnnj.png" alt="logo Miguel Ramirez" /> */}
+         
           <img className="w-48 h-16 -my-4 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1702132498/Logo_lobo_Miguel_Ramirez_cerca-con_letras_ampliadas_c8tzx9.png" alt="logo Miguel Ramirez" />
           </div>
           <div className="flex flex-col items-center m-5">          
