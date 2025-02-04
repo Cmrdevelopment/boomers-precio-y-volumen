@@ -26,7 +26,7 @@ const MasInfoTaller = () => {
             <p>Realizarás hipótesis basadas en el conocimiento y <strong>reducirás el miedo a entrar y operar en el mercado</strong> porque sabrás dónde poner tu stop y dónde poner tu profit en cada momento gracias a la estructura.</p>
 
             </div> 
-            <p className="Landinginfo_info_a-quien-va-dirigido-adivinar font-semibold">No se trata de adivinar ni de apostar a un largo o corto, se trata de ENTENDER y COMPRENDER qué es lo que ocurre en el mercado y cuándo podemos hacer hipótesis y cuándo no. Ayudándote en tu operativa a asumir riesgos proporcionados y con una gestión monetaria aceptable.</p>          
+            <p className="Landinginfo_info_a-quien-va-dirigido-adivinar font-semibold ">No se trata de adivinar ni de apostar a un largo o corto, se trata de ENTENDER y COMPRENDER qué es lo que ocurre en el mercado y cuándo podemos hacer hipótesis y cuándo no. Ayudándote en tu operativa a asumir riesgos proporcionados y con una gestión monetaria aceptable.</p>          
             </div>
 
             <section className="flex flex-col justify-center items-center mt-5 hover:bg-indigo-50">
@@ -43,9 +43,9 @@ const MasInfoTaller = () => {
                     {/* Segunda fila */}
                     <Cuadro texto="Fin de semana dedicado al trading con gente que se dedica al trading" />
                     <Cuadro texto="¿Una cerveza? y las que hagan falta" />
-                    <Cuadro texto="Si les apatece, comidas y cenas con los compis y profes" />
+                    <Cuadro texto="Si les apatece, comidas y cenas con los compañeros y profes" />
             </div>
-            </div>
+            </div>s
             </section>
 
             <seccion className="flex flex-col justify-center items-center mt-5">            
