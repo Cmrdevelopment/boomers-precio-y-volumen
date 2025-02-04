@@ -14,7 +14,7 @@
 }
 
 .footer a:hover{
-    color: var(--color-azul);
+    color: #00ACC1;
     font-weight: 500;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .LandingSaberMas_boton_quieres_saber_mas{
-    background-color: var(--color-azul);
+    background-color: #00ACC1;
     padding: 16px;
     margin-top: 36px;
     transition: linear 0.2s;   

@@ -3,7 +3,7 @@ import "./MasInfoTaller.css";
 // eslint-disable-next-line react/prop-types
 const Cuadro = ({ texto }) => {
     return (
-      <div className=" bg-indigo-300 w-72 h-36 rounded-md shadow-lg m-7 flex justify-center items-center hover:bg-indigo-200">
+      <div className=" bg-cyan-600 w-72 h-36 rounded-md shadow-lg m-7 flex justify-center items-center hover:bg-cyan-500">
             <h3 className="text-white m-5 flex justify-center items-center text-center hover:text-black">{texto}</h3>
       </div>
     );
@@ -26,7 +26,7 @@ const MasInfoTaller = () => {
             <p>Realizarás hipótesis basadas en el conocimiento y <strong>reducirás el miedo a entrar y operar en el mercado</strong> porque sabrás dónde poner tu stop y dónde poner tu profit en cada momento gracias a la estructura.</p>
 
             </div> 
-            <p className="Landinginfo_info_a-quien-va-dirigido-adivinar font-semibold ">No se trata de adivinar ni de apostar a un largo o corto, se trata de ENTENDER y COMPRENDER qué es lo que ocurre en el mercado y cuándo podemos hacer hipótesis y cuándo no. Ayudándote en tu operativa a asumir riesgos proporcionados y con una gestión monetaria aceptable.</p>          
+            <p className="Landinginfo_info_a-quien-va-dirigido-adivinar font-semibold md:w-1/3 w-full">No se trata de adivinar ni de apostar a un largo o corto, se trata de ENTENDER y COMPRENDER qué es lo que ocurre en el mercado y cuándo podemos hacer hipótesis y cuándo no. Ayudándote en tu operativa a asumir riesgos proporcionados y con una gestión monetaria aceptable.</p>          
             </div>
 
             <section className="flex flex-col justify-center items-center mt-5 hover:bg-indigo-50">

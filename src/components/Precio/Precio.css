@@ -38,7 +38,7 @@
 .LandingPrecio_titulo_y_precio h1{
     width: 370px;
     height: 90px;
-    background-color: var(--color-azul);
+    background-color: #00ACC1;
     border-radius: 12px 12px 0 0px;
 }
 

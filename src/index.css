@@ -7,11 +7,11 @@
     padding: 0;
     box-sizing: border-box;
     /* font-family: poppins, Arial, Helvetica, sans-serif; */
-    --color-azul: #08accc;
+    --color-azul: #00ACC1;
 }
 
 .color_primario {
-  color: #08accc
+  color: #00ACC1
 
 }
 
@@ -22,7 +22,7 @@
 .boton_reserva {    
     width: 250px;
     height: 52px;
-    background: var(--color-azul);
+    background: #00ACC1;
     border-color: transparent;
     cursor: pointer;
     border-radius: 30px;
