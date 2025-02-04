@@ -31,7 +31,7 @@ const Header = () => {
           <img className="w-36 h-12 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727670/Boomers/Logo_Jordi_Trading_180_x_40_mxefav.png" alt="logo Jordi" />
           </div>
           <div className="flex flex-col items-center m-5">
-          <img className="w-48 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701995706/Boomers/Foto_cmrbolsa_dedo_campo_SIN_FONDO_rvysip.png" alt="foto Cmrbolsa" />
+          <img className="w-48 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1738666404/Boomers/Foto_cmrbolsa_redonda_boomers-2_lcexr0.png" alt="foto Cmrbolsa" />
           <img className="w-36 h-12 object-contain" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727730/Boomers/Logo_a_modificar-removebg-preview_kjo5ld.png" alt="logo cmrbolsa" />
           </div>
           <div className="flex flex-col items-center m-5">
@@ -59,7 +59,7 @@ const Header = () => {
           </a>            
         </section>
         <div className="flex justify-center">
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VX7WDXDPMVYBE" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K9E4DV5A5KNH2" target="_blank" rel="noopener noreferrer">
         <button className="boton_reserva volvemos-animation">Reservar mi plaza</button>
         </a>
 </div>

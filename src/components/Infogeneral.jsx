@@ -11,12 +11,12 @@ const InfoGeneral = () => {
             <h1 className='font-extrabold m-5 font-poppins text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl'>
             El método que siguen los 4 boomers y que ya usan  
             <span className='color_primario'>
-            , más de 500 alumnos</span>, cada día, en los mercados creando hipótesis que utilizan para operar 
+            , más de 1200 alumnos</span>, cada día, en los mercados creando hipótesis que utilizan para operar 
             <span className='text-sm font-normal md:text-base lg:text-lg xl:text-xl 2xl:text-2xl'>
             <br></br>(¿O sigues pensando que con 5 indicadores podrás batir al mercado?)</span>
             </h1>
             <div className='bg-slate-100 p-5'>
-            <h1 className='mt-7 color_primario font-bold'>Lugar y Fecha: <span className='text-black'>17 al 19 Febrero 2024</span></h1>
+            <h1 className='mt-7 color_primario font-bold'>Lugar y Fecha: <span className='text-black'>10 al 12 Mayo 2025</span></h1>
             <h1 className="font-extrabold m-3 text-7xl">
             MADRID
             </h1>

@@ -2,11 +2,11 @@ import "./Precio.css";
 import { FaCheck } from "react-icons/fa"
 
 const handleTallerClick = () => {
-  window.location.href = 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VX7WDXDPMVYBE';
+  window.location.href = 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K9E4DV5A5KNH2';
 };
 
 const handleButtonTallerClick = () => {
-  window.location.href = 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VX7WDXDPMVYBE';
+  window.location.href = 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K9E4DV5A5KNH2';
 };
 
 
@@ -33,7 +33,7 @@ const Precio = () => {
               <div className="">
                   <h1 className="flex justify-center items-center font-bold">Taller MADRID</h1>
                   <h5 className="">Boomers</h5>
-                  <h2 className="LandingPrecio_precio font-bold">445 €</h2>
+                  <h2 className="LandingPrecio_precio font-bold">490 €</h2>
               </div>
               <div className="LandingPrecio_info_taller">
               <h3><FaCheck/>3 días, talleres de 4 horas c/u</h3>

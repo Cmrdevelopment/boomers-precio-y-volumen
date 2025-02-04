@@ -15,7 +15,7 @@ const MasInfoTaller = () => {
         <>
         <div className=" flex flex-col justify-center items-center font-semibold bg-slate-100 p-5">
             <h2 className="font-extrabold mt-3">¿A quien va dirigido?</h2>
-            <h5 className="flex justify-center items-center text-semibold sm:text-xs mt-3">(Dirigido para aquellos que desean conocer o ya se han iniciado en la metodología de Precio y Volumen)</h5>
+            <h5 className="flex justify-center items-center text-semibold sm:text-xs mt-3">(Dirigido para aquellos que desean conocer o ya se han iniciado en la metodología de Precio y Volumen e itc)</h5>
             <p className="Landinginfo_info_a-quien-va-dirigido-y-te-gusta text-neutral-500 font-bold" > Si te gusta la inversión o especulación en la bolsa y quieres ver cómo leemos el mercado, solo debes venir y disfrutar del mercado con nosotros. Hablaremos sobre la manipulación de los mercados, pero no la manipulación que uno suele pensar, sino la que podrás ver a través de un gráfico. Sí, aquella que hacen los `profesionales` para que la `masa` deje su pasta sin `darse cuenta`.</p>
             <h2 className="md:text-3xl text-center text-xl">
             Entender, comprender para operar conociendo cómo y porqué se mueve el mercado
@@ -53,10 +53,10 @@ const MasInfoTaller = () => {
             <div className="flex flex-wrap justify-center bg-slate-500 mt-5 mb-5">
             <div className="flex flex-wrap justify-center sm:gap-7 ">
                 {/* Primera fila */}
-                    <Cuadro texto="Sábado 17 de 8:00 a 9:00 recogida de inscripción y presentación del evento" />
-                    <Cuadro texto="Sábado 17 de 09:00 a 13:00 y de 16:00 a 20:00 horas" />
-                    <Cuadro texto="Domingo 18 de 09:00 a 13:00 y de 16:00 a 20:00 horas" />
-                    <Cuadro texto="Lunes 19 de 15:00 a 18:00 horas" />                    
+                    <Cuadro texto="Sábado 10 de 8:00 a 9:00 recogida de inscripción y presentación del evento" />
+                    <Cuadro texto="Sábado 10 de 09:00 a 13:00 y de 16:00 a 20:00 horas" />
+                    <Cuadro texto="Domingo 11 de 09:00 a 13:00 y de 16:00 a 20:00 horas" />
+                    <Cuadro texto="Lunes 12 de 15:00 a 18:00 horas" />                    
                     
             </div>
             

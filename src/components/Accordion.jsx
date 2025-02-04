@@ -15,12 +15,12 @@ const AccordionInfo = () => {
     return (
         <div className='flex justify-center m-5'>
         <div className='w-full sm:w-1/2'>
-        <h1 className='flex justify-center mb-7 font-bold text-center'>Te presento el taller de los 4 Boomers de Precio y Volumen</h1>
+        <h1 className='flex justify-center mb-7 font-bold text-center'>Taller de los 4 Boomers de Precio y Volumen e ITC</h1>
         <p className='text-lg text-justify mb-9'><strong>Tres días completos en Madrid</strong> (Sábado, Domingo y Lunes), <strong>cuatro sesiones entre el sabado y domingo</strong> impartidas por los cuatro boomers donde los alumnos están <strong>cuatro horas en cada taller teórico-practico</strong> y <strong>el lunes todos juntos</strong> viendo la <strong>operativa en real</strong> de todo lo dado el fin de semana.</p>
-        <Accordion >
+        <Accordion allowZeroExpanded>
             <AccordionItem >
                 <AccordionItemHeading >
-                    <AccordionItemButton className='bg-yellow-400 p-4 hover:bg-gray-200 text-lg font-bold text-slate-950 hover:text-zinc-50 ' >                    
+                    <AccordionItemButton className='bg-yellow-400 p-4 hover:bg-gray-200 text-2xl font-bold text-slate-950 hover:text-zinc-50 ' >                    
                     Taller 1# - El <span className="color_primario">volumen </span> y los rangos laterales
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -39,7 +39,7 @@ const AccordionInfo = () => {
             </AccordionItem>
                 <AccordionItem >
                 <AccordionItemHeading >
-                    <AccordionItemButton className='bg-yellow-400 p-4 hover:bg-gray-200 text-lg font-bold text-slate-950 hover:text-zinc-50 ' >                    
+                    <AccordionItemButton className='bg-yellow-400 p-4 hover:bg-gray-200 text-2xl font-bold text-slate-950 hover:text-zinc-50 ' >                    
                     Taller 2# - Conceptos <span className="color_primario">básicos del ICT </span>
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -61,7 +61,7 @@ const AccordionInfo = () => {
             </AccordionItem>
             <AccordionItem >
                 <AccordionItemHeading >
-                    <AccordionItemButton className='bg-yellow-400 p-4 hover:bg-gray-200 text-lg font-bold text-slate-950 hover:text-zinc-50 ' >                    
+                    <AccordionItemButton className='bg-yellow-400 p-4 hover:bg-gray-200 text-2xl font-bold text-slate-950 hover:text-zinc-50 ' >                    
                     Taller 3# - Estructura de mercado<span className="color_primario">-Elliott Operativo </span>
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -81,7 +81,7 @@ const AccordionInfo = () => {
             </AccordionItem>
             <AccordionItem >
                 <AccordionItemHeading >
-                    <AccordionItemButton className='bg-yellow-400 p-4 hover:bg-gray-200 text-lg font-bold text-slate-950 hover:text-zinc-50 ' >                    
+                    <AccordionItemButton className='bg-yellow-400 p-4 hover:bg-gray-200 text-2xl font-bold text-slate-950 hover:text-zinc-50 ' >                    
                     Taller 4# - Trading <span className="color_primario">intradía con Opciones</span> Fundamentos Básicos
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -95,6 +95,23 @@ const AccordionInfo = () => {
                 <li className='list-disc'>Griegas: <strong>El VIX</strong></li>
                 <li className='list-disc'>Opciones referenciadas a: <strong>SP500, NASDAQ, RUSSEL, DOW JONES, ORO, PETROLEO, 0DTE</strong></li>
                 <li className='list-disc'>Estrategias según mercado</li>
+                
+                </ul>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem >
+                <AccordionItemHeading >
+                    <AccordionItemButton className='bg-yellow-400 p-4 hover:bg-gray-200 text-2xl font-bold text-slate-950 hover:text-zinc-50 ' >                    
+                    Taller 5# - Operativa <span className="color_primario">en vivo</span> con los Boomers en directo
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel >
+                <ul className='list-none pl-4 space-y-2 ml-5'>
+                <p>Explicaciones <strong>práctica de las entradas realizadas en directo </strong> según se vaya moviendo el mercado. La mecanica de la tarde será:</p>
+                
+                <li className='list-disc'>Entradas en el SP 500 <strong>según la metodologia explicada y el momento se encuentre el mercado</strong></li>
+                <li className='list-disc'>Entradas en el NQ <strong>según la metodologia explicada y el momento se encuentre el mercado</strong></li>
+                <li className='list-disc'>CALL y PUT: <strong>en el SP500, NASDAQ, RUSSEL, DOW JONES, ORO, PETROLEO, 0DTEDelta Gamma Theta y Volatilidad</strong></li>
                 
                 </ul>
                 </AccordionItemPanel>
