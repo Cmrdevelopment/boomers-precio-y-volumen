@@ -13,7 +13,7 @@ const handleButtonTallerClick = () => {
 
 const Precio = () => {
 
-  const twitterURL = 'https://twitter.com/bison_trade';
+  // const twitterURL = 'https://twitter.com/bison_trade';
 
     return (
         <>
@@ -48,7 +48,7 @@ const Precio = () => {
                 <p>Una vez hagas la reserva recibirás un email con toda la info y un enlace para entrar en el TELEGRAM privado del EVENTO, así estarás informado de todo el evento</p>        
                 </div>
                 <div className="flex flex-col justify-center items-center">
-                <h3 className="m-5 font-bold">Patrocinado por:</h3>
+                {/* <h3 className="m-5 font-bold">Patrocinado por:</h3>
                 <section className="sm:w-2/12 w-3/4">          
                 <a href={twitterURL} target="_blank" rel="noopener noreferrer">
                   <img
@@ -57,7 +57,7 @@ const Precio = () => {
             style={{ cursor: 'pointer' }}
             />
             </a>
-            </section>
+            </section> */}
             </div>
             
       

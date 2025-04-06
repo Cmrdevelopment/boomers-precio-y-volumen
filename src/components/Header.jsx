@@ -7,7 +7,7 @@ const Header = () => {
     backgroundSize: "cover",
     backgroundPosition: "center",
   };
-  const twitterURL = 'https://twitter.com/bison_trade';
+  // const twitterURL = 'https://twitter.com/bison_trade';
 
     return (
         <>
@@ -45,7 +45,7 @@ const Header = () => {
           </div>
         </div>
         
-        <section className="flex flex-col items-center sm:flex-row sm:justify-center">
+        {/* <section className="flex flex-col items-center sm:flex-row sm:justify-center">
           <h3 className="text-sm font-extrabold text-center mb-2 sm:mr-4 sm:mb-0 sm:text-lg">
             Patrocinado por:
           </h3>
@@ -57,7 +57,7 @@ const Header = () => {
               style={{ cursor: 'pointer' }}
             />
           </a>            
-        </section>
+        </section> */}
         <div className="flex justify-center">
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K9E4DV5A5KNH2" target="_blank" rel="noopener noreferrer">
         <button className="boton_reserva volvemos-animation">Reservar mi plaza</button>
